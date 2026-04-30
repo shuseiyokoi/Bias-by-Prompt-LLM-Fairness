@@ -96,7 +96,10 @@ python gather_data.py
   - `hmda_CA_2024.csv`
   - `summary.txt`
 
-### 4. Call Large Language Models
+### 4. Call Large Language Models 
+
+> [!WARNING]
+> Skip, if you have data already
 
 ```sh
 python main.py --call-models
@@ -124,7 +127,10 @@ or
 python analyze_results.py
 ```
 
-### 6. Optional Run them All
+### 6. Optional Run them All 
+
+> [!WARNING]
+> Modify `../src/config.py` for # of iternation of API call for LLM
 
 ```sh
 python main.py
