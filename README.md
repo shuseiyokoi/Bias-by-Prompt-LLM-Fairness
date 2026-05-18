@@ -1,3 +1,11 @@
+## Extended Research
+
+This project started as a class project and is now being extended into a research project on LLM prompt sensitivity and fairness analysis.
+
+The original class project is kept on the `main` branch.  
+Ongoing research experiments are developed in the `research-extension` branch.
+
+
 # Bias by Prompt LLM Fairness
 
 The goal of this project is to investigate how a given persona or role affects LLM-based data analysis. [Martin Bertran (2026)](https://arxiv.org/pdf/2602.18710) pointed out that LLM-powered agentic data scientists can reach different conclusions depending on the prompt framing or assigned persona, even when they use the same dataset and analytical methods. Based on this study, I wonder whether a model generates different outputs when it is given a sensitive background context and is encouraged to respond with empathy.
